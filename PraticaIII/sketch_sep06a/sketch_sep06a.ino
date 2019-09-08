@@ -8,16 +8,9 @@ void setup() {
   pinMode(7, OUTPUT);    
   pinMode(8, OUTPUT);    
   pinMode(9, OUTPUT);    
-  //Serial.begin(115200);
-  //Serial.println("Começando");
 }
 
 void loop() {
-  //digitalWrite(13, HIGH);
-  //zero();
-  //Serial.println("Chegou aqui");
-  //delay(1000);
-  //Serial.println("Chegou aqui");
   zero();
   delay(1000);
   um();
