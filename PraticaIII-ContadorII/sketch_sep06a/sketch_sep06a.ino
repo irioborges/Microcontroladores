@@ -11,7 +11,7 @@ int Contador = 0;
 
 void setup() {
   pinMode(13, OUTPUT);  
-  pinMode(2, INPUT_PULLUP);  
+  pinMode(2, INPUT);  
   pinMode(3, OUTPUT);    
   pinMode(4, OUTPUT);    
   pinMode(5, OUTPUT);    
